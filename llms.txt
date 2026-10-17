@@ -1,0 +1,21 @@
+# Boxed
+> Boxed is a calm Shikaku logic puzzle game for iPhone (iOS 17+), in English and Arabic, by Mohamed ElZoghbi (ZaPlatform, Egypt). Split the grid into boxes so each box holds one number equal to its area. Free with ads; a one-time "Remove ads" purchase. No account.
+
+## Pages
+- [Boxed (English)](https://boxed.zaplatform.com/): what Shikaku is, rules, tips, modes, price, FAQ, support
+- [Boxed بالعربية](https://boxed.zaplatform.com/ar/): الصفحة العربية
+- [Privacy policy](https://boxed.zaplatform.com/privacy/)
+- [سياسة الخصوصية](https://boxed.zaplatform.com/ar/privacy/)
+
+## Facts
+- Daily: three boards a day, the same for everyone: Daily 5×5, Hard 7×7, Expert 10×10
+- Endless: 5×5 to 12×12, three difficulties
+- Journey: 12 chapters, 372 levels (30 + 1 Impossible per chapter)
+- Time trial: three minutes
+- Every board has exactly one solution
+- Shape traps on Hard and Expert boards
+- Plays offline: every board is made on the iPhone; only ads and the purchase need a connection
+- Language: English and Arabic; follows the iPhone's language, switchable in Settings
+- iPhone only (iOS 17 or later); iPad isn't supported; Android is coming later
+- Progress stays on the device; no account
+- Contact: zaplatform@gmail.com

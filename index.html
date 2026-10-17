@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Boxed: Shikaku logic puzzles for iPhone</title>
-<meta name="description" content="Boxed is a calm Shikaku puzzle game for iPhone. Split the grid into boxes so each holds one number equal to its area. Daily puzzles, Endless, a 372-level Journey and Time trial, in English and Arabic.">
+<title>Boxed: Daily Shikaku Logic Puzzles for iPhone</title>
+<meta name="description" content="Boxed is a calm Shikaku game for iPhone: split the grid into boxes, one number in each. Three daily boards, Endless, a 372-level Journey. English + Arabic.">
 <link rel="canonical" href="https://boxed.zaplatform.com/">
 <link rel="alternate" hreflang="en" href="https://boxed.zaplatform.com/">
 <link rel="alternate" hreflang="ar" href="https://boxed.zaplatform.com/ar/">
@@ -16,14 +16,18 @@
 <meta property="og:site_name" content="Boxed">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="ar_EG">
-<meta property="og:title" content="Boxed: Shikaku logic puzzles for iPhone">
-<meta property="og:description" content="Split the grid into boxes. Every number is the size of its box. Daily puzzles, Endless, Journey and Time trial.">
+<meta property="og:title" content="Boxed: Daily Shikaku Logic Puzzles for iPhone">
+<meta property="og:description" content="Split the grid into boxes. Every number is the size of its box. Three daily Shikaku boards, Endless, Journey and Time trial, in English and Arabic.">
 <meta property="og:url" content="https://boxed.zaplatform.com/">
 <meta property="og:image" content="https://boxed.zaplatform.com/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Boxed: a solved Shikaku board of pastel boxes on warm paper">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Boxed: Daily Shikaku Logic Puzzles for iPhone">
+<meta name="twitter:description" content="Split the grid into boxes. Every number is the size of its box. Three daily Shikaku boards, Endless, Journey and Time trial, in English and Arabic.">
+<meta name="twitter:image" content="https://boxed.zaplatform.com/og.png">
+<meta name="twitter:image:alt" content="Boxed: a solved Shikaku board of pastel boxes on warm paper">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500;600&family=Rubik:wght@400;500;600;700&display=swap">
@@ -33,25 +37,174 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "MobileApplication",
+      "@type": "WebSite",
+      "@id": "https://boxed.zaplatform.com/#website",
+      "url": "https://boxed.zaplatform.com/",
+      "name": "Boxed",
+      "inLanguage": ["en", "ar"],
+      "publisher": { "@id": "https://zaplatform.com/#org" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://boxed.zaplatform.com/#webpage",
+      "url": "https://boxed.zaplatform.com/",
+      "name": "Boxed: Daily Shikaku Logic Puzzles for iPhone",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://boxed.zaplatform.com/#website" },
+      "about": { "@id": "https://boxed.zaplatform.com/#app" },
+      "primaryImageOfPage": "https://boxed.zaplatform.com/og.png",
+      "dateModified": "2026-10-17"
+    },
+    {
+      "@type": ["MobileApplication", "VideoGame"],
       "@id": "https://boxed.zaplatform.com/#app",
       "name": "Boxed",
-      "description": "A Shikaku logic puzzle game for iPhone: split the grid into rectangles so each holds one number equal to its area. Daily puzzles, Endless, Journey and Time trial.",
-      "applicationCategory": "GameApplication",
-      "applicationSubCategory": "Puzzle",
-      "operatingSystem": "iOS",
-      "inLanguage": ["en", "ar"],
+      "alternateName": ["Boxed: Shikaku Logic Puzzle", "Boxed Shikaku"],
+      "description": "Boxed is a calm Shikaku logic puzzle game for iPhone. Split the grid into boxes so each box holds exactly one number, and that number is its area. Three daily boards the same for everyone (5×5, 7×7, 10×10), Endless 5×5 to 12×12, a 372-level Journey and a 3-minute Time trial, in English and Arabic.",
       "url": "https://boxed.zaplatform.com/",
       "image": "https://boxed.zaplatform.com/assets/icon.png",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "publisher": { "@id": "https://boxed.zaplatform.com/#org" }
+      "screenshot": [
+        "https://boxed.zaplatform.com/assets/shots/20-game-daily-midsolve.jpg",
+        "https://boxed.zaplatform.com/assets/shots/30-solved.jpg",
+        "https://boxed.zaplatform.com/assets/shots/42-journey.jpg"
+      ],
+      "applicationCategory": "GameApplication",
+      "applicationSubCategory": "Puzzle",
+      "genre": ["Puzzle", "Logic puzzle", "Shikaku"],
+      "gamePlatform": "iPhone",
+      "operatingSystem": "iOS 17 or later",
+      "inLanguage": ["en", "ar"],
+      "numberOfPlayers": { "@type": "QuantitativeValue", "value": 1 },
+      "playMode": "SinglePlayer",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "name": "Boxed", "price": "0", "priceCurrency": "USD", "category": "free" },
+      "featureList": [
+        "Daily 5×5, Hard 7×7 and Expert 10×10 boards, the same for everyone each day",
+        "Endless boards from 5×5 to 12×12 in three difficulties",
+        "Journey: 12 chapters and 372 levels, each chapter with an Impossible board",
+        "Time trial: as many boards as you can in three minutes",
+        "Shape traps on Hard and Expert, with hints",
+        "Every board has exactly one solution",
+        "Plays offline: every board is made on the iPhone",
+        "English and Arabic, light and dark, colour-blind patterns",
+        "No account; progress stays on your iPhone"
+      ],
+      "about": { "@id": "https://boxed.zaplatform.com/#shikaku" },
+      "author": { "@id": "https://zaplatform.com/#mohamed" },
+      "publisher": { "@id": "https://zaplatform.com/#org" }
+    },
+    {
+      "@type": "Thing",
+      "@id": "https://boxed.zaplatform.com/#shikaku",
+      "name": "Shikaku",
+      "alternateName": ["Rectangles", "Divide by Box", "شيكاكو"],
+      "description": "A logic puzzle published by Nikoli in which a grid is divided into rectangles, each containing exactly one number equal to its area.",
+      "sameAs": "https://en.wikipedia.org/wiki/Shikaku"
     },
     {
       "@type": "Organization",
-      "@id": "https://boxed.zaplatform.com/#org",
+      "@id": "https://zaplatform.com/#org",
       "name": "ZaPlatform",
       "url": "https://zaplatform.com/",
-      "email": "zaplatform@gmail.com"
+      "logo": "https://boxed.zaplatform.com/assets/icon.png",
+      "email": "zaplatform@gmail.com",
+      "founder": { "@id": "https://zaplatform.com/#mohamed" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zaplatform.com/#mohamed",
+      "name": "Mohamed ElZoghbi",
+      "alternateName": ["Mohamed Zakaria El-Zoghbi", "محمد الزغبي"],
+      "url": "https://zaplatform.com/",
+      "worksFor": { "@id": "https://zaplatform.com/#org" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://boxed.zaplatform.com/#faq",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://boxed.zaplatform.com/#webpage" },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Shikaku?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shikaku is a Japanese logic puzzle, also called Rectangles. You split a grid into rectangles so that each rectangle holds exactly one number, and that number is its area. Boxes can't overlap, and every square must be used. Nikoli first published it in 1989."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Boxed free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every mode in Boxed is free, supported by ads that stay off the board while you play. A one-time Remove ads purchase takes away the banners and the ads between puzzles, and gives you hints without watching an ad. There's no subscription."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Boxed work in Arabic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Boxed is fully in English and Arabic, with a right-to-left layout in Arabic. It follows your iPhone's language, and you can pick English or العربية yourself in Settings → Language. The grid itself isn't mirrored, because it's a spatial puzzle, and numbers use Western digits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Boxed work offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every board is made on your iPhone, so every mode plays without internet, hints included. Only ads and the Remove ads purchase need a connection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Boxed on Android or iPad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Boxed is for iPhone and needs iOS 17 or later. iPad isn't supported, and an Android version is coming later."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I restore Remove ads on a new iPhone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open Boxed, tap the gear on Home for Settings, then Purchases → Restore purchases. Sign in with the same Apple Account you bought it with. Restoring is free."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I turn the daily reminder off?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Boxed, go to Settings → Daily reminder and switch it off. You can change the time there too. You can also turn off all notifications from Boxed in the iPhone's Settings → Notifications → Boxed. The reminder is scheduled on your iPhone; nothing is sent from a server."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need an account? Where is my progress saved?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There's no account and no sign-in. Your progress, streak and settings are saved only on your iPhone, and there's no sync between devices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the daily puzzle the same for everyone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Everyone gets the same Daily, Hard and Expert boards each day, and every board has exactly one solution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I change ad tracking or ad privacy choices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tracking is off unless you allow it when the app asks. To change it later, go to the iPhone's Settings → Privacy & Security → Tracking. In the EEA and the UK, Boxed also shows Settings → Help → Ad privacy choices, where you can review your consent. More in the privacy policy."
+          }
+        }
+      ]
     }
   ]
 }
@@ -80,7 +233,7 @@
   <section class="wrap hero">
     <div>
       <img class="ic" src="assets/icon.png" alt="Boxed app icon" width="88" height="88">
-      <h1>Boxed</h1>
+      <h1>Boxed <span class="h1-sub">Daily Shikaku logic puzzles</span></h1>
       <p class="pitch">Split the grid into boxes. Every number is <span class="chip">the size of its box</span>.</p>
       <p class="lede">A calm Shikaku logic puzzle for iPhone, in English and Arabic. Every board has exactly one solution.</p>
       <div class="actions">
@@ -89,15 +242,22 @@
       </div>
     </div>
     <div class="hero-shots">
-      <div class="phone"><img src="assets/shots/20-game-daily-midsolve.jpg" alt="A Daily 5×5 board halfway through: three boxes placed, the 2, 4, 3 and 4 still open" width="506" height="1100"></div>
+      <div class="phone"><img src="assets/shots/20-game-daily-midsolve.jpg" alt="A Daily 5×5 Shikaku board in Boxed, halfway through: three boxes placed, the 2, 4, 3 and 4 still open" width="506" height="1100" fetchpriority="high"></div>
       <div class="phone"><img src="assets/shots/30-solved.jpg" alt="The solved screen: the finished board, time 3:42, a 12-day streak and no hints used" width="506" height="1100" loading="lazy"></div>
     </div>
   </section>
 
   <section class="sec" id="how" aria-labelledby="h-how">
+    <div class="wrap">
+      <div class="what">
+        <p class="label">How it plays</p>
+        <h2 id="h-how">What is Shikaku?</h2>
+        <p class="answer">Shikaku is a Japanese logic puzzle, also called Rectangles. You split a grid into rectangles so that each rectangle holds exactly one number, and that number is its area: a 6 can be 2×3, 3×2, 1×6 or 6×1. Boxes can't overlap, and every square must belong to one. The Japanese puzzle publisher Nikoli first published it in 1989, and LinkedIn's daily game Patches, launched in March 2026, is based on it. A good Shikaku has exactly one solution that you can reach by reasoning alone, with no guessing. Boxed is a Shikaku game for iPhone: three new boards every day (5×5, 7×7 and 10×10, the same for everyone), Endless boards up to 12×12, a 372-level Journey and a three-minute Time trial, in English and Arabic.</p>
+      </div>
+    </div>
     <div class="wrap how">
       <figure style="margin:0">
-        <div class="board" role="img" aria-label="A solved 5 by 5 board: seven boxes, each the size of its number">
+        <div class="board" role="img" aria-label="A solved 5 by 5 Shikaku board: seven boxes, each the size of its number">
           <div class="b c" style="grid-area:1/1/5/2"><span>4</span></div>
           <div class="b p" style="grid-area:1/2/3/5"><span>6</span></div>
           <div class="b l" style="grid-area:1/5/3/6"><span>2</span></div>
@@ -109,14 +269,19 @@
         <figcaption class="board-cap">A solved Daily 5×5. Seven boxes, 25 squares, nothing left over.</figcaption>
       </figure>
       <div>
-        <p class="label">How it plays</p>
-        <h2 id="h-how">Draw a box around each number.</h2>
-        <p class="intro">That's the whole rule. The thinking is in where each box can go.</p>
+        <h3 class="how-h">Draw a box around each number.</h3>
+        <p class="intro">To play Shikaku in Boxed, drag across the grid to draw a box around a number, and tap a box to remove it. A board is solved when every square is inside a box and every box matches its number.</p>
         <ol class="rules">
-          <li><div><h3>Drag to draw</h3><p>Drag across the grid to draw a rectangle. Tap a box to remove it.</p></div></li>
-          <li><div><h3>One number per box</h3><p>Each box holds exactly one number, and that number is its area. A 6 can be 2×3, 3×2, 1×6 or 6×1.</p></div></li>
-          <li><div><h3>Fill the grid</h3><p>Boxes can't overlap, and every square belongs to one. When the grid is full, you're done.</p></div></li>
+          <li><div><h4>Drag to draw</h4><p>Drag across the grid to draw a rectangle. Tap a box to remove it.</p></div></li>
+          <li><div><h4>One number per box</h4><p>Each box holds exactly one number, and that number is its area. A 6 can be 2×3, 3×2, 1×6 or 6×1.</p></div></li>
+          <li><div><h4>Fill the grid</h4><p>Boxes can't overlap, and every square belongs to one. When the grid is full, you're done.</p></div></li>
         </ol>
+        <h3 class="tips-h">Three tips to start</h3>
+        <ul class="tips">
+          <li><b>Start at the edges.</b> A number in a corner or on the edge has fewer shapes that fit.</li>
+          <li><b>Primes are strips.</b> A 5 or a 7 can only be one cell wide, so it's always a line.</li>
+          <li><b>Watch the shape traps.</b> A 4, 6 or 9 that looks like it wants a square is often a long strip. If a square would trap a neighbour, it's wrong.</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -155,7 +320,7 @@
       <div class="journey-row">
         <div>
           <h3>A Journey that teaches as it goes</h3>
-          <p>Each chapter brings in one idea: edges and corners, ones and twos, long strips, then the shape traps, where the obvious square is wrong and only a strip fits. Finish 20 levels to open the next chapter. Each chapter ends with one Impossible board.</p>
+          <p>Each chapter brings in one idea: edges and corners, ones and twos, big numbers, long strips, shape traps (where the obvious square is wrong and only a strip fits), crowded boards and giant boards. Finish 20 of a chapter's 30 levels to open the next chapter, and all 30 to open its Impossible board.</p>
         </div>
         <div class="phone"><img src="assets/shots/42-journey.jpg" alt="The Journey screen: chapters 1 to 3 in progress, later chapters locked" width="506" height="1100" loading="lazy"></div>
       </div>
@@ -192,8 +357,28 @@
   <section class="sec" id="support" aria-labelledby="h-support">
     <div class="wrap">
       <p class="label">Support</p>
-      <h2 id="h-support">Questions</h2>
+      <h2 id="h-support">Questions about Boxed</h2>
       <div class="faq">
+        <details>
+          <summary>What is Shikaku?</summary>
+          <div class="a"><p>Shikaku is a Japanese logic puzzle, also called Rectangles. You split a grid into rectangles so that each rectangle holds exactly one number, and that number is its area. Boxes can't overlap, and every square must be used. Nikoli first published it in 1989.</p></div>
+        </details>
+        <details>
+          <summary>Is Boxed free?</summary>
+          <div class="a"><p>Yes. Every mode in Boxed is free, supported by ads that stay off the board while you play. A one-time Remove ads purchase takes away the banners and the ads between puzzles, and gives you hints without watching an ad. There's no subscription.</p></div>
+        </details>
+        <details>
+          <summary>Does Boxed work in Arabic?</summary>
+          <div class="a"><p>Yes. Boxed is fully in English and Arabic, with a right-to-left layout in Arabic. It follows your iPhone's language, and you can pick English or <span lang="ar">العربية</span> yourself in <b>Settings → Language</b>. The grid itself isn't mirrored, because it's a spatial puzzle, and numbers use Western digits.</p></div>
+        </details>
+        <details>
+          <summary>Does Boxed work offline?</summary>
+          <div class="a"><p>Yes. Every board is made on your iPhone, so every mode plays without internet, hints included. Only ads and the Remove ads purchase need a connection.</p></div>
+        </details>
+        <details>
+          <summary>Is Boxed on Android or iPad?</summary>
+          <div class="a"><p>Boxed is for iPhone and needs iOS 17 or later. iPad isn't supported, and an Android version is coming later.</p></div>
+        </details>
         <details>
           <summary>How do I restore Remove ads on a new iPhone?</summary>
           <div class="a"><p>Open Boxed, tap the gear on Home for <b>Settings</b>, then <b>Purchases → Restore purchases</b>. Sign in with the same Apple Account you bought it with. Restoring is free.</p></div>

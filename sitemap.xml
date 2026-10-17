@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://boxed.zaplatform.com/</loc><lastmod>2026-10-17</lastmod></url>
-  <url><loc>https://boxed.zaplatform.com/ar/</loc><lastmod>2026-10-17</lastmod></url>
-  <url><loc>https://boxed.zaplatform.com/privacy/</loc><lastmod>2026-10-17</lastmod></url>
-  <url><loc>https://boxed.zaplatform.com/ar/privacy/</loc><lastmod>2026-10-17</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://boxed.zaplatform.com/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boxed.zaplatform.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://boxed.zaplatform.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boxed.zaplatform.com/"/>
+  </url>
+  <url>
+    <loc>https://boxed.zaplatform.com/ar/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boxed.zaplatform.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://boxed.zaplatform.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boxed.zaplatform.com/"/>
+  </url>
+  <url>
+    <loc>https://boxed.zaplatform.com/privacy/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boxed.zaplatform.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://boxed.zaplatform.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boxed.zaplatform.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://boxed.zaplatform.com/ar/privacy/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://boxed.zaplatform.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://boxed.zaplatform.com/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://boxed.zaplatform.com/privacy/"/>
+  </url>
 </urlset>
