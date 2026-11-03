@@ -18,4 +18,5 @@
 - Language: English and Arabic; follows the iPhone's language, switchable in Settings
 - iPhone only (iOS 17 or later); iPad isn't supported; Android is coming later
 - Progress stays on the device; no account
+- App Store: https://apps.apple.com/app/id6823661590
 - Contact: zaplatform@gmail.com
